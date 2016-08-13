@@ -64,3 +64,23 @@ git add
 git status
 #1471072963
 git add origin
+#1471073062
+git add .
+#1471073092
+git commit -m "initial commit"
+#1471073177
+git config --global user.email "evilloria@gmail.com"
+#1471073203
+git config --global user.name "kire73"
+#1471073212
+git commit -m "initial commit"
+#1471073256
+git remote add origin
+#1471073266
+git remote add origin https://github.com/kire73/methodeyes.git
+#1471073276
+git remote -v
+#1471073295
+git push origin master
+#1471073328
+git pull
