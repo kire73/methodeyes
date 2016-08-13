@@ -1,3 +1,7 @@
 [user]
 	email = evilloria@gmail.com
 	name = kire73
+[pack]
+	windowMemory = 100m
+	SizeLimit = 100m
+	threads = 1
