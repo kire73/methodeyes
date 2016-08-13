@@ -1,0 +1,6 @@
+dev                      blocks      quota      limit      grace      files      quota      limit      grace
+/dev/sda1                     4          0          0                     3          0          0           
+/dev/sdb1                186588          0          0                 12823          0          0           
+/dev/sdc1                     0          0          0                     0          0          0           
+/dev/sda2                     0          0          0                     0          0          0           
+/dev/sda6                     0          0          0                     1          0          0           

@@ -1,0 +1,66 @@
+header {
+  position: relative;
+}
+body {
+  background-color: slategrey;
+}
+#clear {
+  position: relative;
+  margin-left: 30%;
+  margin-right: 50%;
+  width: 100px;
+}
+
+#confirm {
+  background-color: teal;
+  text-align: center;
+}
+#taco {
+  background-color: brown;
+}
+#board {
+  border: 1px solid black;
+  max-width: 300px;
+  height: auto;
+  background-color: lightgrey;
+  border-radius: 20px;
+  margin-top: 10%;
+  padding: 25px;
+  box-shadow: 10px 10px 5px;
+}
+.textcont h1 {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+.row {
+  text-align: center;
+}
+
+.col-xs-4, .col-lg-4 {
+  background-color: lightgrey;
+  height: 75px;
+  text-align: center;
+  border: 1px solid black;
+}
+.col-xs-4:hover {
+  background-color: white;
+}
+.ui-dialog, .ui-dialog-content {
+  background-color: teal;
+  padding-bottom: 50px;
+}
+.ui-dialog-titlebar {
+  background-color: teal;
+  padding-bottom: 50px;
+}
+.ui-dialog .ui-dialog-buttonpane{
+  background-color: teal;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+footer {
+	margin-top: 50%;
+}

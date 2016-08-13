@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="viewport" content="width=700, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" media='screen and (min-width: 701px)' type="text/css" href="mlook.css">
+  <link rel="stylesheet" media='screen and (max-width: 700px)' type="text/css" href="mobile.css">
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="projects/calc.css">
+  <script type="text/javascript" src="projects/wik.js"></script>
+  <link rel="stylesheet" type="text/css" href="projects/wik.css">
+  <script type="text/javascript" src="projects/weather.js"></script>
+  <link rel="stylesheet" type="text/css" href="projects/weather.css">
+  
+  <script>
+  
+    $(function(){
+      $("#mycalculator").on("click", function(){
+      $("#showcase").load("projects/calc.html"); 
+    }); 
+  });
+  
+    $(function(){
+      $("#myweather").on("click", function(){
+      $("#showcase").load("projects/weather.html"); 
+    }); 
+  });
+  
+    $(function(){
+      $("#mysearch").on("click", function(){
+      $("#showcase").load("projects/wik.html"); 
+    }); 
+  });
+  
+    $(function(){
+      $("#showme").on("click", function(){
+      $("#showcase").load("projects/calc.html"); 
+    }); 
+  });
+    
+    
+  </script>
+  
+  <script src="projects/calc.js"></script>
+    
+</head>
+<html>
+<div>
+    <ul>
+	<li class=""><a href="#">Home</a></li>
+	<li class=""><a href="#code">Code</a></li>
+	<li class=""><a href="#music">Music</a></li>
+	<li class=""><a href="#anim">Animation</a></li>
+	<li class=""><a href="#beer">Beer</a></li>
+	<li class="dropdown"><a class="dropbtn" href="#tools">Tools</a>
+	  <div class="dropdown-content">
+      		<a id="mycalculator">Calculator</a>
+      		<a id="myweather">Weather</a>
+      		<a id="mysearch">WikiSearch</a>
+    	  </div>
+  	</li>
+      </ul>
+</div>
+
+
+<div id="toplevel" class="flex-center">
+
+<a name="code"></a>
+  <div class="smooth sectionhead" id="code">
+    <div align="center">
+      <a href="https://www.freecodecamp.com/kire73">
+        <h1>Code</h1></a>
+    </div>
+    <p id="sectionp">
+      Take some time to learn about the finer points of writing your own software, and how easy it can be to learn and start coding in your own home! Click the title above to visit my FreeCodeCamp profile. Or click <a href="projects/calc.html">here</a> to try my calculator.
+    </p>
+    <br>
+  </div>
+
+<div class="container-responsive" id="me" align="center">
+  <h1 style="margin-top: 80px; font-size: jumbotron;">Method Eyes</h1>
+  <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAL1AAAAJDA3YjQ0MDJhLTVlZDEtNGNmZi1hZWU5LTc3ZmJiMWU5ZjlhZA.jpg" class="head" id="stay" width=auto>
+  
+<button id="showme">click it</button>
+
+
+  <div align="center">
+    <button>
+        <a href="https://www.linkedin.com/in/erik-villoria-3ba68059"><img src="https://cdn1.iconfinder.com/data/icons/social-media-and-logos-8/32/linkedin_social_media_online_logo-128.png" width= 25px></a></button>
+    <button>
+        <a href="https://www.facebook.com/erik.villoria.7"><img src="https://cdn1.iconfinder.com/data/icons/social-media-and-logos-8/32/facebook_social_media_online_logo-128.png" width= 25px></a></button>
+    <button>
+        <a href="https://twitter.com/ErikVilloria"><img src="https://cdn1.iconfinder.com/data/icons/social-media-and-logos-8/32/twitter_social_media_online_logo-128.png" width="25px"></a></button>
+    <button>
+        <a href="https://github.com/kire73"><img src="https://cdn1.iconfinder.com/data/icons/social-media-and-logos-8/32/github_social_media_online_logo-128.png" width= 25px></a></button>
+    <button>
+        <a href="https://plus.google.com/u/0/109823642485589425325/posts/p/pub"><img src="https://cdn1.iconfinder.com/data/icons/social-media-and-logos-8/32/google_plus_social_media_online_logo-128.png" width= 25px>		  	</a></button>
+    <button>
+        <a href="https://www.youtube.com/channel/UC5a5B5FAW7mVgQusD-3ocxQ"><img src="https://cdn1.iconfinder.com/data/icons/social-media-and-logos-8/32/play_youtube_social_media_online_logo-128.png" width= 25px></a></button>
+  </div>
+</div>
+  
+<a name="music"></a>
+  <div class="smooth sectionhead" id="music">
+    <div align="center">
+      <a href="https://soundcloud.com/erik-villoria"><h1 text-color="white">Music</h1></a>
+    </div>
+    <p id="sectionp">
+      I&apos;ve been a musician most of my life and have become a certified recording artist with the state of California. Click the link above to visit my soundcloud account.
+    </p>
+    <br>
+  </div>
+  
+</div>
+
+<div class="flex-center">
+  
+<a name="anim"></a>
+  <div class="smooth sectionhead" id="anim">
+    <div align="center">
+      <h1>Animation</h1>
+    </div>
+    <p id="sectionp">
+      I am an amateur animator. Self-taught and self-driven by my love of cartoons and making the voices that accompany them. More to come, as I begin to generate content for this new, awesome website!
+    </p>
+    <br>
+  </div>
+
+<div id="showcase"></div>
+
+<a name="beer"></a>
+<div class="smooth sectionhead" id="brew">
+  <div align="center">
+    <h1>Brewing</h1>
+  </div>
+  <p id="sectionp">
+    I am a homebrewer of approximately 3 years practice. Beer is one of my muses on this world, and creating new and exciting brews has become one of my life passions. More to come, as I begin to generate content for this new, awesome website!
+  </p>
+  <br>
+</div>
+
+</div>
+
+
+<a id="details" name="contact"></a>
+<div id="contact" id="details">
+  <h3 id="details">Contact info: </h3>
+  <h5>		Cell Phone: (805) 657-2285    	Email:evilloria@gmail.com	<a href="https://www.freecodecamp.com/kire73/front-end-certification" target=blank>My cert</a>
+  </h5>
+</div>
+
+</html>
+
+

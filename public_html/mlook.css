@@ -1,0 +1,238 @@
+body {
+  background: url('https://wallpaperscraft.com/image/balloon_flight_plant_91681_1920x1080.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+    
+}
+
+
+ul {
+    position: fixed;
+    z-index: +2;
+    overflow: hidden;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: #333;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+li {
+    float: left;
+    background-color: #333;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover {
+    background-color: green;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+li:hover, ul {
+    text-decoration: none;
+    overflow: visible;
+    background-color: #333;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BBB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: green;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+#me {
+  max-width: 200;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline-block-center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+#toplevel {
+position: relative;
+}
+
+#stay {
+	margin: 20px;
+}
+
+.head {
+  border: solid 1px;
+  size: auto;
+  max-width: 100px;
+  border-radius: 20%;
+  top: 20px;
+  right: 20px;
+  box-shadow: 8px 8px 5px rgba(0,0,0,0.4);
+}
+
+
+
+button {
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+  
+}
+
+
+
+button {
+  border-radius: 10px 10px 10px 10px;
+  border: solid 1px;
+  padding: 5px 5px;
+}
+
+button:hover {
+  background-color: green;
+  border: solid 1px;
+  padding: 5px 5px 5px 5px;
+}
+
+p {
+  opacity: 0.5;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: black;
+}
+p:hover {
+  opacity: 1.0;
+}
+#sectionp {
+  text-indent: 50px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  max-width: 250px;
+  color: black;
+
+}
+
+h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+  color: black;
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+#details {
+  margin: 0px;
+  margin-top: 0px;
+}
+
+.sectionhead {
+  padding: 20px 20px 20px 20px;
+  margin-top: 0%;
+}
+
+#showcase {
+  display: inline-block;
+  min-width: 50%;
+  text-align: center;
+}
+.smooth {
+  border-radius: 20px;
+  max-width: 25%;
+  max-height: 10%;
+  margin-top: 3%;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+  display: inline-block;
+}
+
+#brew {
+  background: url(http://bgfons.com/upload/beer_texture1958.jpg) no-repeat;
+  background-position: center;
+  float: right;
+  margin-right: 3%;
+}
+
+#code {
+  background: url(https://i.ytimg.com/vi/d-zKJCKsoWw/maxresdefault.jpg);
+  float: left;
+  margin-top: 7%;
+}
+
+#music {
+  background: url(kire/piano.JPG) no-repeat;
+  background-position: center;
+  float: right;
+  margin-top: 7%;
+}
+
+#anim {
+  background: url(http://www.design4equine.com/wp-content/uploads/2014/04/MATITE-COLORATE-RIFLESSE.jpg);
+  float: left;
+  margin-left: 3%;
+}
+
+#contact {
+  background-color: grey;
+  margin: 0;
+  position: fixed;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 3%;
+}
+
+h5 {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  text-align: center;
+  color: black;
+}

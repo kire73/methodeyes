@@ -1,0 +1,47 @@
+body {
+  background-color: slategrey;
+}
+button {
+  box-shadow: 3px 3px 3px;
+}
+#gamepad {
+  max-width: 310px;
+  max-height: 310px;
+  background-color: black;
+  margin-top: 5%;
+  padding: 25px;
+}
+#scoreboard {
+  background-color: rosybrown;
+  border-radius: 14px;
+  width: 620px;
+  box-shadow: 5px 5px 5px;
+}
+.gamebutton {
+  margin: 5px;
+  style: inline-block;
+  height: 150px;
+  width: 150px;
+}
+
+#green {
+  margin-left: 107px;
+  margin-top: -310px;
+  background-color: green;
+}
+
+#blue {
+  align: left;
+  margin-left: -200px;
+  background-color: blue;
+}
+
+#red {
+  background-color: darkred;
+  margin-left: -200px;
+}
+
+#yellow {
+  background-color: gold;
+  margin-left: 107px;
+}
