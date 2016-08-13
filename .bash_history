@@ -84,3 +84,15 @@ git remote -v
 git push origin master
 #1471073328
 git pull
+#1471073334
+git add .
+#1471073353
+git commit -m "Initial Commit"
+#1471073365
+git push origin master
+#1471073419
+branch
+#1471073426
+git branch
+#1471073431
+git status
