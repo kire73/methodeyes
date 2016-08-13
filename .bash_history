@@ -96,3 +96,15 @@ branch
 git branch
 #1471073431
 git status
+#1471073500
+git checkout .
+#1471073506
+git status
+#1471073546
+git pull origin
+#1471073560
+git pull origin master
+#1471073579
+git commit
+#1471073603
+git pull origin master
